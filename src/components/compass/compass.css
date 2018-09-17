@@ -1,0 +1,49 @@
+/* compass */
+.compass {
+  background:#ff30ff90;
+  width:100px;
+  height:100px;
+  margin:auto;
+  margin-top:80px;
+  position:relative;
+}
+
+.compass .hor, .compass .ver {
+  position:absolute;
+}
+.compass .hor button,.compass .ver button {
+  width:45px;
+  height:45px;
+}
+.compass .hor {
+  border-bottom:1px solid #303030;
+  height:50%;
+  width:100%;
+}
+.compass .hor .btn1, .compass .hor .btn2 {
+  position: absolute;
+  bottom:-20px;
+}
+.compass .hor .btn1 {
+  left:-47px;
+}
+.compass .hor .btn2 {
+  right:-46px;
+}
+
+
+.compass .ver {
+  border-right:1px solid #303030;
+  height:100%;
+  width:50%;
+}
+.compass .ver .btn1, .compass .ver .btn2 {
+  position: absolute;
+  right:-23px;
+}
+.compass .ver .btn1 {
+  top:-46px;
+}
+.compass .ver .btn2 {
+  bottom:-46px;
+}
